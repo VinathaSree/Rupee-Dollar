@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.tw.WalletTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-05-31T16:21:24" hostname="DESKTOP-AAA0CS5" time="0.151">
+  <properties/>
+  <testcase name="shouldThrowExceptionWhenWithDrawingInsufficientMoney()" classname="org.tw.WalletTest" time="0.079"/>
+  <testcase name="shouldReturnTheWalletBalanceInRupeesWhenThePreferredCurrencyIsRupees()" classname="org.tw.WalletTest" time="0.027"/>
+  <testcase name="shouldReturnZeroWhenTheWalletIsEmpty()" classname="org.tw.WalletTest" time="0.003"/>
+  <testcase name="shouldNotThrowExceptionWhenTheMoneyIsAdded()" classname="org.tw.WalletTest" time="0.007"/>
+  <testcase name="shouldReturnTheWalletBalanceInDollarsWhenThePreferredCurrencyIDollars()" classname="org.tw.WalletTest" time="0.012"/>
+  <testcase name="shouldThrowExceptionWhenThePreferredCurrencyIsInvalid()" classname="org.tw.WalletTest" time="0.001"/>
+  <testcase name="shouldReturnTrueWhenOneDollarIsComparedWithItsEquivalentRupees()" classname="org.tw.WalletTest" time="0.001"/>
+  <testcase name="shouldReturnFalseWhenOneDollarIsComparedWithItsNonEquivalentRupees()" classname="org.tw.WalletTest" time="0.002"/>
+  <testcase name="shouldThrowExceptionWhenTheMoneyAddedIsInfinite()" classname="org.tw.WalletTest" time="0.003"/>
+  <testcase name="shouldNotThrowExceptionWhenWithDrawingMoney()" classname="org.tw.WalletTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
